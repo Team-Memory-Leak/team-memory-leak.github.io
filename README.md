@@ -1,8 +1,10 @@
-# memory-leak.github.io
+# team-memory-leak.github.io
 Team Memory Leak's Website
 
-> Authors:
+## Authors:
 [Ryan Hoang](https://github.com/Mallowford) | [Luis Alonso Bojorquez](https://github.com/lbojo006) | [Jacob Kantor](https://github.com/JacobKantor)
 
-> Organization:
+## Organization:
 [Team Memory Leak](https://github.com/Team-Memory-Leak)
+
+## About this project
