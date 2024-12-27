@@ -1,0 +1,68 @@
+/* Global */
+/* 
+  Paul Irish's Box-Sizing Border Box Fix
+*/
+html {
+  box-sizing: border-box;
+}
+* *::before *::after {
+  box-sizing: inherit;
+}
+
+* {
+  color: #110B11;
+  background-color: #EEE5E9;
+}
+.navigation nav ul {
+  list-style-type: none;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  overflow: hidden;
+  background-color: #007CBE;
+  border-style: solid;
+  border-color: #FFE74C;
+}
+.navigation nav ul li {
+  float: left;
+}
+
+.navigation nav ul li a {
+  background-color: #007CBE;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 25px;
+  -webkit-text-stroke-color: #FFE74C;
+  -webkit-text-stroke-width: 0.8px;
+}
+.navigation nav ul li a:hover {
+  background-color: aqua;
+}
+#aboutus {
+  float: right;
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+.foundingMember {
+  font-weight: bold;
+}
+
+/* Home */
+
+
+/* Team Members */
+
+/* Projects */
+
+/* About Us */
