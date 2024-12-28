@@ -74,23 +74,28 @@ footer {
 }
 .intro h1 {
   font-size: 40px;
-  padding: 0px;
+  padding-left: 15px;
   border-bottom: 0px;
+  max-width: 5px;
 }
 .intro h2 {
   border-top: 0px;
   margin-top: -30px;
   padding-top: 0px;
+  padding-left: 25px;
   color: gray;
   font-weight: lighter;
   font-size: 20px;
+  max-width: 300px;
 }
 #UCR {
-  float: right;
+  float: center;
   padding-top: auto;
-  margin-top: -50px;
+  padding-left: auto;
+  margin-top: auto;
   margin-left: auto;
   margin-right: 0;
+  position: relative;
 }
 
 
