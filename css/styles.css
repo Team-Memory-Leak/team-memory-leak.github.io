@@ -10,8 +10,8 @@ html {
 }
 
 * {
-  color: #110B11;
-  background-color: #EEE5E9;
+  color: black;
+  background-color: white;
 }
 .navigation nav ul {
   list-style-type: none;
@@ -27,16 +27,15 @@ html {
   padding-left: 15px;
 
   overflow: hidden;
-  background-color: #007CBE;
-  border-style: solid;
-  border-color: #FFE74C;
+  background-color: #0430c0;
+  border: solid #fcbd00 7px;
 }
 .navigation nav ul li {
   float: left;
 }
 
 .navigation nav ul li a {
-  background-color: #007CBE;
+  background-color: #0430c0;
   display: block;
   text-align: center;
   padding: 16px;
@@ -46,7 +45,7 @@ html {
   -webkit-text-stroke-width: 0.8px;
 }
 .navigation nav ul li a:hover {
-  background-color: aqua;
+  background-color: rgb(58, 129, 235);
 }
 #aboutus {
   float: right;
@@ -58,6 +57,36 @@ html {
   font-weight: bold;
 }
 
+#UCR {
+  float: right;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: auto;
+}
+
+#team {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#scrum {
+  color: gray;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.intro-text {
+  color: black;
+}
 /* Home */
 
 
