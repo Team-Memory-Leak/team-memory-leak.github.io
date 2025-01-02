@@ -1,9 +1,16 @@
+/* 
+COLOR PALETTE:
+
+*/
+
+
 /* Global */
 /* 
   Paul Irish's Box-Sizing Border Box Fix
 */
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 * *::before *::after {
   box-sizing: inherit;
@@ -13,26 +20,27 @@ html {
   color: #110B11;
   background-color: #EEE5E9;
 }
+.navigation * {
+  height: auto;
+  background-color: #007CBE;
+}
 .navigation nav ul {
-  list-style-type: none;
+  list-style: none;
 
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 0;
 
-  overflow: hidden;
-  background-color: #007CBE;
   border-style: solid;
   border-color: #FFE74C;
+  font-family: monospace;
 }
 .navigation nav ul li {
-  float: left;
+  display: inline-block;
+  position: relative;
 }
 
 .navigation nav ul li a {
@@ -41,25 +49,101 @@ html {
   text-align: center;
   padding: 16px;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 2.5rem;
+  margin: 0;
+  text-decoration: none;
   -webkit-text-stroke-color: #FFE74C;
   -webkit-text-stroke-width: 0.8px;
 }
 .navigation nav ul li a:hover {
   background-color: aqua;
 }
-#aboutus {
+.aboutus {
   float: right;
   margin-left: auto;
   margin-right: 0px;
+  padding: 0;
+}
+.dropdown {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background: #007CBE;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+.dropdown li {
+  display: block;
 }
 
-.foundingMember {
-  font-weight: bold;
+.navigation nav ul li:hover ul.dropdown {
+  display: block;
+}
+
+.content-wrapping {
+  word-break: normal;
+}
+
+footer ul {
+  height: 60px;
+  background: #110B11;
+  list-style: none;
+}
+footer ul li {
+  top: 25%;
+  color: #EEE5E9;
+  background: #110B11;
+  font-size: 2.4rem;
+  display: inline;
+  position: relative;
 }
 
 /* Home */
+.foundingMember * {
+  font-weight: bold;
+}
+.foundingMember ul {
+  text-align: center;
+  list-style: none;
+}
+.foundingMember ul li {
+  display: inline-block;
+  position: relative;
+  max-width: max-content;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.foundingMember ul li h2 {
+  font-size: 2.9rem;
+  margin: 0;
+  padding: 5px 0 0 0;
+  text-align: center;
+}
+.foundingMember ul li h3 {
+  font-size: 2.1rem;
+  margin: 0;
+  padding: 5px 0 5px 0;
+  text-align: center;
+}
 
+.intro {
+  display: inline-block;
+  position: relative;
+}
+.intro h1 {
+  font-size: 7rem;
+  margin: 0;
+  padding: 0;
+}
+.intro h2 {
+  font-size: 2.4rem;
+  margin: 0;
+  padding: 0 0 0 24px;
+}
 
 /* Team Members */
 
