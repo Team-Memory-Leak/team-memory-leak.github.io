@@ -149,6 +149,17 @@ footer ul li {
   padding: 0 0 0 24px;
 }
 
+.buttonComponents {
+  /* className="rounded-lg border-4 bg-leap-mid-green px-4 py-2 text-fontFamily-leap text-white"
+          style={{ borderColor: "#3E6F55AB" }} */
+  display: flex;
+  border: 4px solid #000000;
+  text-align: center;
+  background-color: #5099ff;
+  width:50px;
+  justify-content: center;
+}
+
 /* Team Members */
 
 /* Projects */
