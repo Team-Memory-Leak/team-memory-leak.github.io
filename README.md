@@ -1,4 +1,4 @@
-# team-memory-leak.github.io
+# Team-Memory-Leak.github.io
 Team Memory Leak's Website
 
 ## Authors:
