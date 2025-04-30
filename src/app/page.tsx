@@ -1,5 +1,3 @@
-import React from 'react'
-
 const page = () => {
   return (
     <div className="grid grid-rows-2 justify-center items-center gap-2">
