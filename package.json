@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "check": "npx prettier --check .",
+    "eslint": "npx eslint -c eslint.config.mjs"
   },
   "dependencies": {
     "next": "15.3.1",
