@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "prettier": "prettier --write .",
+    "prettier": "prettier --write --fix .",
     "check": "npx prettier --check .",
     "eslint": "npx eslint -c eslint.config.mjs"
   },
