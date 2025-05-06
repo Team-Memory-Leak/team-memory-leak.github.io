@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const resources = () => {
-  return (
-    <div>resources</div>
-  )
-}
+  return <div>resources</div>;
+};
 
-export default resources
+export default resources;
