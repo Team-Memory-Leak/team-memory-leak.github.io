@@ -1,13 +1,10 @@
-import Image from "next/image";
-
 const page = () => {
   return (
     <>
       <div className="grid grid-rows-2 items-center justify-center gap-2">
-        <h1>Team Memory Leak</h1>
+        <h1 className="flex justify-center">Team Memory Leak</h1>
         <div className="flex justify-center">
-          {/* <Image src="" alt="" width={300} height={300} /> */}A student
-          scrum team founded at University of California, Riverside
+          A student scrum team founded at University of California, Riverside
         </div>
         <div className="mx-auto w-1/2 table-auto border-separate border-spacing-2 border-slate-400">
           <svg
@@ -19,7 +16,7 @@ const page = () => {
             <path
               fillRule="evenodd"
               d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             ></path>
           </svg>
         </div>
